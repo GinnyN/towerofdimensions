@@ -1,0 +1,121 @@
+#app{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#menuList li{
+	display:inline;
+	padding: 5px;
+}
+
+#submenu{
+	float: left;
+	width: 20%;
+}
+
+#fullView{
+	float:left;
+}
+
+.inventoryMercenario{
+	position:absolute;
+	display: none;
+}
+
+#principal{
+	width: 995px;
+	height: 995px;
+	overflow: hidden;
+}
+
+#dimensionesContainer{
+	height: 995px;
+	width: 1990px;
+	margin-left: 0;
+}
+
+#dimensionesList{
+	width: 990px;
+	height: 995px;
+	float: left;
+}
+
+.zonasList{
+	width: 990px;
+	height: 995px;
+	float: right;
+}
+
+#misionsList{
+	background: black;
+	color: white;
+	position:fixed;
+	width: 700px;
+	height: 305px;
+	display: none;
+	overflow: auto;
+}
+
+.selectMercenario{
+	background: red;
+	color: black;
+	position:absolute;
+	float: right;
+	width: 700px;
+	height: 305px;
+	display: none;
+	overflow: auto;
+}
+
+.misionItem{
+	color: white;
+}
+
+.missionReport{
+	position:fixed;
+	display: none;
+	background: red;
+	color: black;
+	width: 700px;
+	height: 305px;
+	display: none;
+	overflow: auto;
+	z-index: 50000000000;
+}
+
+.levelUp{
+	position:fixed;
+	display: none;
+	background: red;
+	color: black;
+	width: 700px;
+	height: 305px;
+	display: none;
+	overflow: auto;
+	z-index: 50000000000;
+}
+
+#store{
+	float: left;
+	overflow: auto;
+}
+
+#storeTabs{
+	float: left;
+}
+
+#inventory{
+	float:right;
+	overflow: auto;
+}
+
+.confirmation{
+	position:fixed;
+	background: red;
+	color: black;
+	width: 700px;
+	height: 305px;
+	display: block;
+	overflow: auto;
+	z-index: 50000000000;
+}

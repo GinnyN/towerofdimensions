@@ -1,0 +1,66 @@
+{
+    "misiones": [
+        {
+            "idBase": 0,
+            "dinero": 10,
+            "exp": 20,
+            "tiempo": 10,
+            "condiciones": [
+                {
+                	"description": "Huir de Banna",
+					"car1": "Agilidad",
+					"car2": "Destreza",
+                    "total": 4
+                },
+                {
+                	"description": "Convencerla de que te de la Medalla",
+					"car1": "Inteligencia",
+					"car2": "Carisma",
+                    "total": 2
+                }
+            ],
+            "totalPtos": 6,
+            "nombre": "Busqueda de Medallas",
+            "descripcion": "Consigue una nueva medalla de Banna",
+            "zona": 0,
+            "dimension": 0,
+			"unlockMisiones": [1],
+			"unlockMercenarios": [2],
+			"unlockItems": [1],
+			"unlockZona": [[1,0]],
+			"first": true,
+			"hpLoss": 5
+        },
+        {
+            "idBase": 1,
+            "dinero": 10,
+            "exp": 20,
+            "tiempo": 10,
+            "condiciones": [
+				{
+					"description": "Huir de Banna",
+					"car1": "Agilidad",
+					"car2": "Destreza",
+					"total": 7
+				},
+				{
+					"description": "Huir de Banna",
+					"car1": "Inteligencia",
+					"car2": "Carisma",
+					"total": 4
+				}
+            ],
+            "totalPtos": 11,
+            "nombre": "Busqueda de Medallas",
+            "descripcion": "Consigue una nueva medalla de Banna",
+            "zona": 0,
+            "dimension": 0,
+			"unlockMisiones": [],
+			"unlockMercenarios": [],
+			"unlockItems": [],
+			"unlockZona": [],
+			"first": true,
+			"hpLoss": 5
+        }
+    ]
+}

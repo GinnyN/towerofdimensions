@@ -1,0 +1,31 @@
+{
+	"dimensiones":[
+		{
+			"idBase": 0,
+			"nombre": "Dimension 101",
+			"zonas":[
+				{
+					"idBase": 0,
+					"nombre": "Dimension Dale",
+					"misiones": [0]
+				}
+			]
+		},
+		{
+			"idBase": 1,
+			"nombre": "Spiral",
+			"zonas":[
+				{
+					"idBase": 0,
+					"nombre": "Life Temple",
+					"misiones": []
+				},
+				{
+					"idBase": 1,
+					"nombre": "Oceanside Town",
+					"misiones": []
+				}
+			]
+		}
+	]
+}
